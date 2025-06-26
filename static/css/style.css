@@ -1,0 +1,13 @@
+.thinking-animation {
+    animation: pulse 2s infinite;
+}
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.reflection-glow {
+    box-shadow: 0 0 20px rgba(93, 92, 222, 0.3);
+} 
